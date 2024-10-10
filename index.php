@@ -7,7 +7,7 @@ $auth = new Auth($pdo, $base);
 $userInfo = $auth->checkToken();
 $activeMenu = 'home';
 
-// Pegar informações de paginação
+// Pegar informações de paginaçãoaa
 $page = intval(filter_input(INPUT_GET, 'p'));
 if($page < 1) {
     $page = 1;
