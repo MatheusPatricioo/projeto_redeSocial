@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Definindo a base da URL
+// Definindo a base da URL; :)
 $base = 'http://localhost/projeto_redeSocial'; // Verifique se este caminho está correto
 
 // Configurações do banco de dados
